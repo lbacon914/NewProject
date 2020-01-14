@@ -1,0 +1,95 @@
+.Navbar {
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    padding: 8px;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+  }
+  
+  .Navbar__Link {
+    padding-right: 8px;
+  }
+  
+  .Navbar__Items {
+    display: flex;
+  }
+  
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+  
+  .Navbar__Link-toggle {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+    }
+      
+  .Navbar__Items {
+      display:none;
+    }
+      
+  .Navbar__Items--right {
+      margin-left:0;
+    }
+      
+  .Navbar__ToggleShow {
+      display: flex;
+    }
+      
+  .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } 
+  }
+
+h1 {
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+}
+h2 {
+    font-size: 6em;
+    color: rgb(190, 57, 57);
+    margin-bottom: 100px;
+    margin-top: 65px;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+
+}
+h3 {
+    color: blueviolet;
+}
+
+p {
+    color: blueviolet;
+    font-size: 30px;
+
+}
+#dates {
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact {
+    font-family: 'Bad Script', cursive;
+}
+body {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+}
+.footer {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
